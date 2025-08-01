@@ -1,16 +1,16 @@
-import DAO.UsuarioDAO;
-import entity.Usuario;
+import DAO.MensagemDAO;
+import entity.Mensagem;
 
 public class Main {
 
     public static void main(String[] args) {
-        Usuario u = new Usuario();
+        Mensagem u = new Mensagem();
 
-        u.setNome("teste");
+        u.setUsername("teste");
         u.setEmail("teste@gmail.com");
         u.setComentario("teste de comentario");
 
-        new UsuarioDAO().cadastrarUsuario(u);
+        new MensagemDAO().cadastrarUsuario(u);
 
     }
 

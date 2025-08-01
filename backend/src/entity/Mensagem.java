@@ -1,23 +1,23 @@
 package entity;
 
-public class Usuario {
+public class Mensagem {
 
     private int id;
-    private String nome;
+    private String username;
     private String email;
     private String comentario;
-
+    
     public int getId() {
         return id;
     }
     public void setId(int id) {
         this.id = id;
     }
-    public String getNome() {
-        return nome;
+    public String getUsername() {
+        return username;
     }
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setUsername(String username) {
+        this.username = username;
     }
     public String getEmail() {
         return email;
@@ -31,5 +31,7 @@ public class Usuario {
     public void setComentario(String comentario) {
         this.comentario = comentario;
     }
+
+    
    
 }

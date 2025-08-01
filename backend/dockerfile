@@ -3,6 +3,7 @@ FROM openjdk:21-jdk-slim
 WORKDIR /app
 
 COPY lib ./lib
+COPY bin ./bin
 COPY src ./src
 
 CMD ["java", "-cp", "lib/*:bin", "Main"]
